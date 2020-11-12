@@ -2,17 +2,15 @@
 import './App.css';
 import Greet from './Test/props/UsingFunction';
 import Welcome from './Test/props/UsingClass';
+import Message from './Test/states/StateExample'
 
 function App() {
   return (
     <div>
       <Greet name='Arka'/>
-      <Greet name='Nayan'/>
-      <Greet name='Kabya'/>
-
-      <Welcome name= 'Baba'/>
-      <Welcome name= 'Nana'/>
       <Welcome name= 'Kaka'/>
+
+      <Message/>
       
     </div>
   );
